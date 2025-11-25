@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { TaskModule } from './task/task.module';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { PostModule } from './post/post.module';
 
 @Module({
   imports: [
@@ -20,7 +21,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       autoLoadEntities: true,
       synchronize: true,
     }),
-    TaskModule
+    TaskModule,
+    PostModule
   ],
   controllers: [AppController],
   providers: [AppService],
