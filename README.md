@@ -1,3 +1,8 @@
+
+Git password: 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
+
+
+
 Full-Stack Task Manager
 This is a simple Task Manager web application built with NestJS for the backend and PostgreSQL for the database. The frontend will be implemented in React. The application allows users to view tasks, add new tasks, and mark tasks as completed. Everything is containerized using Docker Compose for easy setup.
 
